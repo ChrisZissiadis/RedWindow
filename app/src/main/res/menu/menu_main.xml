@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chriszissiadis.redwindow.MainActivity">
+    <item
+        android:id="@+id/sort_camera"
+        android:orderInCategory="100"
+        android:title="@string/action_sortcamera"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_film"
+        android:orderInCategory="100"
+        android:title="@string/action_sortfilm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
